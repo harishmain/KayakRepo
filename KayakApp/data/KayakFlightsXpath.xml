@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository>
+	<Object>
+		<Name>validateApp</Name>
+		<Page>App</Page>
+		<Android>//*[@originClass='android.view.View']</Android>
+		<iOS>//*[@name='brand-logo-bigger']</iOS>
+		<action>getSize</action>
+	</Object>
+	<Object>
+		<Name>AppOption</Name>
+		<Page>App</Page>
+		<Android>Flights</Android>
+		<iOS>Flights</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>TripType</Name>
+		<Page>App</Page>
+		<Android>round</Android>
+		<iOS>round</iOS>
+		<action>click</action>
+	</Object>		
+	<Object>
+		<Name>FromText</Name>
+		<Page>App</Page>
+		<Android>FROM</Android>
+		<iOS>FROM</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>FromTextXpath</Name>
+		<Page>App</Page>
+		<Android>(//*[contains(text(),'FROM')])[1]</Android>
+		<iOS>//*[contains(text(),'FROM')]</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>FromTextbox</Name>
+		<Page>App</Page>
+		<Android>//*[contains(@resourceid,'smartySearchText')]</Android>
+		<iOS>"//*[contains(@originClass,'UIASearchBar')]"</iOS>
+		<action>click</action>
+	</Object>		
+	<Object>
+		<Name>FromAirportName</Name>
+		<Page>App</Page>
+		<Android>Dallas</Android>
+		<iOS>Dallas</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>ToText</Name>
+		<Page>App</Page>
+		<Android>TO</Android>
+		<iOS>TO</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>ToTextbox</Name>
+		<Page>App</Page>
+		<Android>//*[contains(text(),'city name or airport')]</Android>
+		<iOS>//*[contains(text(),'to airport')]</iOS>
+		<action>click</action>
+	</Object>		
+	<Object>
+		<Name>ToAirportName</Name>
+		<Page>App</Page>
+		<Android>Denver International</Android>
+		<iOS>Denver International</iOS>
+		<action>click</action>
+	</Object>
+	<Object>
+		<Name>IncrementTravelers</Name>
+		<Page>App</Page>
+		<Android>(//*[contains(@resourceid,'incrementTravelers')])[1]</Android>
+		<iOS>(//button[@class='UIAButton'])[7]</iOS>
+		<action>click</action>
+	</Object>
+	<Object>
+		<Name>TravelClassText</Name>
+		<Page>App</Page>
+		<Android>Economy</Android>
+		<iOS>Economy</iOS>
+		<action>click</action>
+	</Object>
+	<Object>
+		<Name>TravelClassOptionSelect</Name>
+		<Page>App</Page>
+		<Android>//*[contains(text(),'Economy')]</Android>
+		<iOS>Economy</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>FindFlightButtonText</Name>
+		<Page>App</Page>
+		<Android>Find Flights</Android>
+		<iOS>Find Flights</iOS>
+		<action>click</action>
+	</Object>
+	<Object>
+		<Name>SortButton</Name>
+		<Page>App</Page>
+		<Android>//*[contains(@resourceid,'sort')]</Android>
+		<iOS>//*[contains(text(),'sort')]</iOS>
+		<action>click</action>
+	</Object>	
+	<Object>
+		<Name>SortTypeFilter</Name>
+		<Page>App</Page>
+		<Android>(//*[contains(text(),'Price')])</Android>
+		<iOS>(//*[contains(text(),'Least expensive (Grouped)')])</iOS>
+		<action>click</action>
+	</Object>	
+
+	<Object>
+		<Name>DoneButton</Name>
+		<Page>App</Page>
+		<Android></Android>
+		<iOS>Done</iOS>
+		<action>click</action>
+	</Object>		
+</Repository>

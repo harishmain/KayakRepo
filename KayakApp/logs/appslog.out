@@ -1,0 +1,65 @@
+
+
+[2015-10-09 13:33:20,616] [main] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:20,621] [main] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:20,621] [main] [INFO ] [] - FlightTestCase :: main() invoked...
+[2015-10-09 13:33:20,621] [main] [INFO ] [] - CommonUtility :: getDeviceIds() invoked...
+[2015-10-09 13:33:20,715] [main] [INFO ] [] - CommonUtility :: getDeviceIds(), device:61944835
+[2015-10-09 13:33:20,715] [main] [INFO ] [] - 
+[2015-10-09 13:33:20,715] [main] [INFO ] [] - FlightTestCase :: main() *** TESTING STARTED ***
+[2015-10-09 13:33:20,718] [main] [INFO ] [] - Instantiating Thread for deviceId >>>>61944835<<<<
+[2015-10-09 13:33:20,720] [main] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:20,721] [main] [INFO ] [] - 
+[2015-10-09 13:33:20,727] [pool-1-thread-1] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:20,730] [pool-1-thread-1] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:22,393] [pool-1-thread-1] [INFO ] [] - 
+[2015-10-09 13:33:22,393] [pool-1-thread-1] [INFO ] [] - RunParallelExecution :: run() ** STARTED *** , deviceId: 61944835
+[2015-10-09 13:33:22,393] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: DeviceOpen() invoked on device: 61944835
+[2015-10-09 13:33:22,585] [pool-1-thread-1] [ERROR] [] - MobileCloudServices :: DeviceOpen(), deviceId:61944835, Exception:Failed to open device 61944835
+[2015-10-09 13:33:27,585] [pool-1-thread-1] [INFO ] [] - RunParallelExecution :: run() ** COMPLETED *** , deviceId: 61944835
+[2015-10-09 13:33:49,304] [main] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:49,309] [main] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:49,310] [main] [INFO ] [] - FlightTestCase :: main() invoked...
+[2015-10-09 13:33:49,310] [main] [INFO ] [] - CommonUtility :: getDeviceIds() invoked...
+[2015-10-09 13:33:49,421] [main] [INFO ] [] - CommonUtility :: getDeviceIds(), device:61944835
+[2015-10-09 13:33:49,422] [main] [INFO ] [] - 
+[2015-10-09 13:33:49,422] [main] [INFO ] [] - FlightTestCase :: main() *** TESTING STARTED ***
+[2015-10-09 13:33:49,425] [main] [INFO ] [] - Instantiating Thread for deviceId >>>>61944835<<<<
+[2015-10-09 13:33:49,428] [main] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:49,429] [main] [INFO ] [] - 
+[2015-10-09 13:33:49,435] [pool-1-thread-1] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:49,437] [pool-1-thread-1] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:33:50,957] [pool-1-thread-1] [INFO ] [] - 
+[2015-10-09 13:33:50,958] [pool-1-thread-1] [INFO ] [] - RunParallelExecution :: run() ** STARTED *** , deviceId: 61944835
+[2015-10-09 13:33:50,958] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: DeviceOpen() invoked on device: 61944835
+[2015-10-09 13:34:01,348] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: DeviceOpen(), Model: Galaxy S5, deviceId: 61944835 Opened
+[2015-10-09 13:34:12,632] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: OpenApplication() invoked on device: 61944835
+[2015-10-09 13:34:15,684] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: OpenApplication(), Application:KAYAK opened on device:61944835
+[2015-10-09 13:34:20,689] [pool-1-thread-1] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:34:20,689] [pool-1-thread-1] [INFO ] [] - 
+[2015-10-09 13:34:20,689] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: startFlightTestFlow() invoked...
+[2015-10-09 13:34:20,863] [pool-1-thread-1] [INFO ] [] - Log4jWrapper Logging initialized
+[2015-10-09 13:34:20,863] [pool-1-thread-1] [INFO ] [] - 
+[2015-10-09 13:34:20,863] [pool-1-thread-1] [INFO ] [] - FlightTestFlow :: testBestFlightsFlow() invoked...
+[2015-10-09 13:34:28,160] [pool-1-thread-1] [INFO ] [] - [61944835] XPATH for validateApp:>>>>//*[@originClass='android.view.View']<<<<
+[2015-10-09 13:34:28,160] [pool-1-thread-1] [INFO ] [] - [61944835] KAYAK app is launched successfully
+[2015-10-09 13:34:31,863] [pool-1-thread-1] [INFO ] [] - [61944835] Flight Option button displaye and going to Click it
+[2015-10-09 13:34:31,883] [pool-1-thread-1] [INFO ] [] - [61944835] XPATH for Flight Option:>>>>Flights<<<<
+[2015-10-09 13:34:37,953] [pool-1-thread-1] [INFO ] [] - [61944835] App successfully displaying Main-Page with different TAB options
+[2015-10-09 13:34:37,956] [pool-1-thread-1] [INFO ] [] - [61944835] XPATH for TripType:>>>>round<<<<
+[2015-10-09 13:34:38,608] [pool-1-thread-1] [INFO ] [] - [61944835] Round-Trip Tab found and clicked successfully
+[2015-10-09 13:34:41,495] [pool-1-thread-1] [INFO ] [] - [61944835] XPATH for FromTxt:>>>>FROM<<<<
+[2015-10-09 13:34:41,499] [pool-1-thread-1] [INFO ] [] - [61944835] XPATH for FromTxtXpath:>>>>(//*[contains(text(),'FROM')])[1]<<<<
+[2015-10-09 13:35:16,484] [pool-1-thread-1] [ERROR] [] - FlightTestFlow :: testBestFlightsFlow(), STEP:4,  Exception: Element with text (//*[contains(text(),'FROM')])[1] wasn't found.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'Harish-PC', ip: '192.168.11.100', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+[2015-10-09 13:35:16,484] [pool-1-thread-1] [INFO ] [] - 
+[2015-10-09 13:35:16,484] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: CloseApplication() performing on device: 61944835
+[2015-10-09 13:35:20,557] [pool-1-thread-1] [INFO ] [] - [61944835] MobileCloudServices :: CloseApplication() status:true
+[2015-10-09 13:35:25,557] [pool-1-thread-1] [INFO ] [] - [61944835] MobileCloudServices :: DeviceClose() invoked... 
+[2015-10-09 13:35:36,658] [pool-1-thread-1] [INFO ] [] - [61944835] MobileCloudServices :: DeviceClose() status:true
+[2015-10-09 13:35:36,659] [pool-1-thread-1] [INFO ] [] - 
+[2015-10-09 13:35:36,659] [pool-1-thread-1] [INFO ] [] - MobileCloudServices :: DriverQuitDownloadReport() invoked
+[2015-10-09 13:35:36,659] [pool-1-thread-1] [ERROR] [] - RunParallelExecution :: run(), Exception: null
